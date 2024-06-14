@@ -34,6 +34,7 @@ Modern C++集合
 - TODO
 
 ## 协程
+
 <details open>
 <summary>⛏</summary>
 
@@ -47,6 +48,9 @@ C++20协程, 任务, 调度器
 </details>
 
 ## 网络
+
+<details open>
+<summary>⛏</summary>
 
 网络基础库/框架/开发工具, 协程, 高并发
 
@@ -65,15 +69,22 @@ C++20协程, 任务, 调度器
 - [co_async](https://github.com/archibate/co_async): c++ 20协程库 (教学目的)
 
 - [coke](https://github.com/kedixa/coke): 协程版 [Workflow](https://github.com/sogou/workflow)
+</details>
 
 ## RPC
+
+<details open>
+<summary>⛏</summary>
 
 反射/RPC
 
 - [zpp_bits](https://github.com/eyalz800/zpp_bits): 一个轻量级的c++ 20序列化和RPC库
-
+</details>
 
 ## 反射
+
+<details open>
+<summary>⛏</summary>
 
 编译期反射/运行时反射
 
@@ -82,48 +93,76 @@ C++20协程, 任务, 调度器
 - [USRefl](https://github.com/Ubpa/USRefl): header-only，很小(99行)和强大的c++ 20静态反射库
 
 - [meta.hpp](https://github.com/BlackMATov/meta.hpp): C++20动态反射库
+</details>
 
 ## 序列化
+
+<details open>
+<summary>⛏</summary>
 
 C++对象序列化/反序列化, pack/unpack, JSON
 
 - [glaze](https://github.com/stephenberry/glaze): 极快的现代c++ JSON库, 从对象内存中读写，提供简化的接口并提供了令人难以置信的性能
 
 - [magic-cpp](https://github.com/16bit-ykiko/magic-cpp): 一个 header-only的库，它旨在让您更加方便的使用C++，包括了可视化类型名，对结构体枚举的反射等一些列功能，它能帮摆脱那难以阅读的编译器报错信息
+</details>
 
 ## 算法
+
+<details open>
+<summary>⛏</summary>
 
 algorithm/range/sequence/collection
 
 - [flux](https://github.com/tcbrindle/flux): 面向序列编程的c++ 20库
+</details>
 
 ## 编码
+
+<details open>
+<summary>⛏</summary>
 
 - [libunicode](https://github.com/contour-terminal/libunicode): 现代c++ 20 Unicode库
 
 - [consteval-huffman](https://github.com/tcsullivan/consteval-huffman): 编译期huffman编码压缩
-
+</details>
 
 ## 图形学
 
+<details open>
+<summary>⛏</summary>
+
 - [matrix](https://github.com/fengwang/matrix): 一个现代的，c++ 20的，单头文件dense 2D矩阵库
+</details>
 
 ## 模板引擎
+
+<details open>
+<summary>⛏</summary>
 
 模板系统/模板引擎
 
 - [bustache](https://github.com/jamboree/bustache): `{{mustache}}`的C++20实现
+</details>
 
 ## 测试框架
+
+<details open>
+<summary>⛏</summary>
 
 测试工具/测试框架
 
 - [ut](https://github.com/boost-ext/ut): c++单头文件/单模块，无宏的(微型)单元测试框架
 
 - [clean-test](https://github.com/clean-test/clean-test): 现代C++20测试框架
+</details>
 
 ## 未分类
+
+<details open>
+<summary>⛏</summary>
 
 - [yalantinglibs](https://github.com/alibaba/yalantinglibs): 一个c++20库的集合，包括coro_rpc, struct_pack, struct_json, struct_xml, struct_pb, easylog, async_simple
 
 - [rpp](https://github.com/TheNumbat/rpp): Minimal Rust-inspired C++20 STL replacement
+</details>
