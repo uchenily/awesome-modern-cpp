@@ -1,4 +1,6 @@
-# awesome-modern-cpp
+# Awesome-Modern-CPP
+
+<p align="center"><img src="https://github.com/uchenily/awesome-modern-cpp/blob/main/resources/badge.svg"></p>
 
 Modern C++集合
 
