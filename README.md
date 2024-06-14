@@ -126,7 +126,34 @@ algorithm/range/sequence/collection
 
 - [libunicode](https://github.com/contour-terminal/libunicode): 现代c++ 20 Unicode库
 
-- [consteval-huffman](https://github.com/tcsullivan/consteval-huffman): 编译期huffman编码压缩
+- [consteval-huffman](https://github.com/tcsullivan/consteval-huffman): 编译期huffman编码压缩(特定场景下能减少程序体积)
+
+<details close><summary></summary>
+
+```cpp
+    auto data
+        = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100"_huffman;
+
+    std::cout << "压缩前大小(字节): " << data.uncompressed_size() << '\n';
+    std::cout << "压缩后大小(字节): " << data.compressed_size() << '\n';
+    std::cout << "节省空间: " << data.bytes_saved() << '\n';
+
+    std::cout << "解码后的数据: \n";
+    for (char c : data) {
+        std::cout << c;
+    }
+```
+
+```text
+压缩前大小(字节): 292
+压缩后大小(字节): 187
+节省空间: 105
+解码后的数据:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+```
+
+</details>
+
 </details>
 
 ## 图形学
