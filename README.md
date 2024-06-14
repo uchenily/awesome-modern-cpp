@@ -34,6 +34,8 @@ Modern C++集合
 - TODO
 
 ## 协程
+<details open>
+<summary>⛏</summary>
 
 C++20协程, 任务, 调度器
 
@@ -42,6 +44,7 @@ C++20协程, 任务, 调度器
 - [libfork](https://github.com/ConorWilliams/libfork): 一个前沿的, lock-free, wait-free, 实现任务窃取的库，建立在c++ 20的协程上
 
 - [libasync](https://github.com/managarm/libasync): c++ 20的异步原语库
+</details>
 
 ## 网络
 
