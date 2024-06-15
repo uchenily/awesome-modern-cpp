@@ -28,6 +28,7 @@ Modern C++集合
 - [算法](#算法)
 - [编码](#编码)
 - [图形学](#图形学)
+- [游戏开发](#游戏开发)
 - [模板引擎](#模板引擎)
 - [测试框架](#测试框架)
 - [未分类](#未分类)
@@ -192,6 +193,15 @@ b32 len: 6
 <summary>⛏</summary>
 
 - [matrix](https://github.com/fengwang/matrix): 一个现代的，c++ 20的，单头文件dense 2D矩阵库
+</details>
+
+## 游戏开发
+
+<details open>
+<summary>⛏</summary>
+
+- [peredvizhnikov-engine](https://github.com/eduard-permyakov/peredvizhnikov-engine): 一个用c++20编写的完全无锁的游戏引擎。它在语言的协程原语之上实现了并发计算的 actor 模型。
+
 </details>
 
 ## 模板引擎
