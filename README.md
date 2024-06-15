@@ -239,4 +239,6 @@ b32 len: 6
 
 - [OpenSiv3D](https://github.com/Siv3D/OpenSiv3D): 一个开源框架，允许使用现代c++(C++20), 结合声音，图像和AI, 编写有趣的游戏和应用程序. 支持 Windows / macOS / Linux / Web 平台.
 
+- [STX](https://github.com/lamarrr/STX): 一个库和实用程序的集合，旨在使使用c++更容易，更不容易出错。
+
 </details>
