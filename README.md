@@ -108,6 +108,9 @@ C++对象序列化/反序列化, pack/unpack, JSON
 - [glaze](https://github.com/stephenberry/glaze): 极快的现代c++ JSON库, 从对象内存中读写，提供简化的接口并提供了令人难以置信的性能
 
 - [magic-cpp](https://github.com/16bit-ykiko/magic-cpp): 一个 header-only的库，它旨在让您更加方便的使用C++，包括了可视化类型名，对结构体枚举的反射等一些列功能，它能帮摆脱那难以阅读的编译器报错信息
+
+- [serialize](https://github.com/RedSkittleFox/serialize): C++23序列化库, 提供了一个简单易用的接口，支持容器、普通类型和聚合类型，并提供了简单的接口来创建自定义序列化方法
+
 </details>
 
 ## 算法
@@ -221,4 +224,7 @@ b32 len: 6
 - [yalantinglibs](https://github.com/alibaba/yalantinglibs): 一个c++20库的集合，包括coro_rpc, struct_pack, struct_json, struct_xml, struct_pb, easylog, async_simple
 
 - [rpp](https://github.com/TheNumbat/rpp): Minimal Rust-inspired C++20 STL replacement
+
+- [libv](https://github.com/cpplibv/libv): C++23编写的包含大量可重用代码的库集合
+
 </details>
