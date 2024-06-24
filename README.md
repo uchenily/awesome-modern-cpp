@@ -125,6 +125,9 @@ C++对象序列化/反序列化, pack/unpack, JSON
 algorithm/range/sequence/collection
 
 - [flux](https://github.com/tcbrindle/flux): 面向序列编程的c++ 20库
+
+- [small_vectors](https://github.com/arturbac/small_vectors): 优化的C++ 20/23 vector, 类内缓冲区存储的字符串, 和一些实用算法
+
 </details>
 
 ## 编码
