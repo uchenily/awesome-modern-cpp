@@ -97,6 +97,9 @@ C++20协程, 任务, 调度器
 - [USRefl](https://github.com/Ubpa/USRefl): header-only，很小(99行)和强大的c++ 20静态反射库
 
 - [meta.hpp](https://github.com/BlackMATov/meta.hpp): C++20动态反射库
+
+- [reflect](https://github.com/boost-ext/reflect): C++20静态反射库
+
 </details>
 
 ## 序列化
