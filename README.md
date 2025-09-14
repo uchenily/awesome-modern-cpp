@@ -92,6 +92,8 @@ C++20协程, 任务, 调度器
 
 编译期反射/运行时反射
 
+- [reflect](https://github.com/qlibs/reflect): C++20静态反射库
+
 - [reflect-cpp](https://github.com/getml/reflect-cpp): 一个c++ 20库，使用反射进行快速序列化、反序列化和验证。支持JSON, BSON, CBOR, flexbuffers, msgpack, TOML, XML, YAML
 
 - [USRefl](https://github.com/Ubpa/USRefl): header-only，很小(99行)和强大的c++ 20静态反射库
